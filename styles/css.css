@@ -1,0 +1,398 @@
+/* header */
+.Green-head{
+    background-color:#9ACD32;
+    width: 100%;
+    height: 25px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    color:white;
+}
+.phone{
+        margin-left:500px;
+}
+.mail{
+    margin-right:10px;
+}
+.logo{
+    width: 100%;
+    height: 60px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-top: 20px;
+    font-size:20px;
+    font-family: 'DejaVu Sans Bold';
+}
+.ojaxuri-logo{
+  width:200px;
+  height:100px;
+}
+.chvens-shesaxeb{
+    display:flex;
+    justify-content:space-between;
+    text-align: center;
+    width:800px;
+}
+.logo-peri{
+    color:black;
+}
+.ojaxuri{
+    color:#2E8B57;
+    font-weight: 40px;
+    font-size: 30px;
+}
+.bar{
+  color:greenyellow;
+  font-size:30px;
+  margin-right:20px;
+  display:none;
+}
+
+.mtavari-photo{
+    background-image: url('../images/mtavari-photo.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:100%;
+    height:800px;
+    background-position: top right;
+    position:relative;
+    display:flex;
+    text-align: center;
+    margin-top: 30px;
+}
+.mtavari-photo:hover{
+    background-image: url('../images/herbs.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* products */
+.chveni-produqtebi{
+    color:black;
+    font-size: 50px;;
+    margin-top:80px;
+    margin-bottom:80px;
+    display:flex;
+    justify-content: center;
+    font-family: 'BPG Irubaqidze';
+}
+.sheidzinet{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:100%;
+    height:600px;
+    text-align: center;
+    font-family: 'BPG Irubaqidze';
+   font-size: 20px;
+}
+/* footer */
+.footer-clean {
+    width:100%;
+    background-color:black;
+    color:white;
+    margin-top:100px;
+  }
+  
+  .footer-clean h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:17px;
+  }
+  
+  .footer-clean ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  .footer-clean ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-clean ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-clean .item.social {
+    text-align:right;
+  }
+  
+  .footer-clean .item.social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin-left:10px;
+    margin-top:22px;
+    color:inherit;
+    opacity:0.75;
+  }
+
+  .footer-clean .copyright {
+    margin-top:14px;
+    margin-bottom:0;
+    font-size:13px;
+  }
+  
+/* sawarmo css */
+.sawarmo{
+    display:flex;
+    margin-top:40px;
+    margin-left:30px;
+    width:100%;
+    height:700px;
+    
+}
+.sawarmo-text{
+    display:flex;
+    margin-top:150px;
+    margin-left:20px;
+    font-size: 30px;
+    font-family: 'BPG Irubaqidze';
+}
+.sawarmo2{
+    display:flex;
+    margin-top:40px;
+    margin-left:30px;
+    width:100%;
+}
+.full-sawarmo{
+    display:flex;
+    flex-wrap:wrap;
+    width:100%;
+    margin-right: 80px;
+}
+
+/* produqciis gverdi */
+.produqciis-photo{
+  margin: 50px 300px 50px 60px;
+}
+.produqciis-text{
+  font-size:25px;
+  font-family:'BPG Irubaqidze';
+  font-stretch: semi-condensed;
+display:flex;
+flex-direction: column;
+margin-top: 40px;
+margin-left:30px;
+margin-bottom:50px;
+}
+.produqciis-text:hover{
+  background-color: #9ACD32;
+}
+
+/* contact page */
+.ruka{
+  margin: 50px 300px 60px 50px;
+}
+#fcf-form {
+  display:block;
+}
+
+.fcf-body {
+  margin: 0;
+  font-family: -apple-system, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 40;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+  padding: 30px;
+  padding-bottom: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  max-width: 100%;
+}
+
+.fcf-form-group {
+  margin-bottom: 1rem;
+}
+
+.fcf-input-group {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  width: 100%;
+}
+
+.fcf-form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 200;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  outline: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.fcf-form-control:focus {
+  border: 1px solid #313131;
+}
+
+select.fcf-form-control[size], select.fcf-form-control[multiple] {
+  height: auto;
+}
+
+textarea.fcf-form-control {
+  font-family: -apple-system, Arial, sans-serif;
+  height: auto;
+}
+
+label.fcf-label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.fcf-credit {
+  padding-top: 10px;
+  font-size: 0.9rem;
+  color: #545b62;
+}
+
+.fcf-credit a {
+  color: #545b62;
+  text-decoration: underline;
+}
+
+.fcf-credit a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.fcf-btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+
+.fcf-btn:hover {
+  color: #212529;
+  text-decoration: none;
+}
+
+.fcf-btn:focus, .fcf-btn.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.fcf-btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.fcf-btn-primary:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.fcf-btn-primary:focus, .fcf-btn-primary.focus {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.fcf-btn-lg, .fcf-btn-group-lg>.fcf-btn {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 0.3rem;
+}
+
+.fcf-btn-block {
+  display: block;
+  width: 100%;
+}
+
+.fcf-btn-block+.fcf-btn-block {
+  margin-top: 0.5rem;
+}
+
+input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
+  width: 100%;
+}
+/* export page */ 
+.export-photo{
+  background-image: url('../images/export.jpeg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:100%;
+    height:500px;
+    margin-top:40px;
+    margin-bottom:50px;
+}
+.export-photo2{
+  background-image: url('../images/export1.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  margin-top:50px;
+  margin-bottom:50px;
+  margin-left:80px;
+  width: 800px;
+  height:800px;
+}
+.export-text{
+  font-size:20px;
+  margin-left:30px;
+  font-family: 'DejaVu Sans Bold';
+}
+.export-text:hover{
+  background-color: greenyellow;
+}
+.export-text2{
+  font-size:20px;
+  margin-left:30px;
+  font-family: 'DejaVu Sans Bold';
+}
+.export-text2:hover{
+  background-color: greenyellow;
+}
+.export-photo3{
+  background-image: url('../images/export3.jpeg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  margin-top:50px;
+  margin-bottom:50px;
+  margin-left:80px;
+  width:800px;
+  height:800px;
+}
